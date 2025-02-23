@@ -1,0 +1,21 @@
+.course-detail {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.course-detail ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course-detail li {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

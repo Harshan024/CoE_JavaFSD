@@ -1,0 +1,82 @@
+/* Instructor Detail Page Styles */
+.instructor-detail-container {
+  max-width: 800px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(161, 27, 27, 0.15);
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.instructor-detail-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Instructor Image */
+.instructor-img-detail {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #007bff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.instructor-img:hover {
+  transform: scale(1.1);
+}
+
+/* Instructor Name */
+.instructor-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Expertise */
+.instructor-expertise {
+  font-size: 22px;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* Bio */
+.instructor-bio {
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+/* Return to Instructors Button */
+.back-btn {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  padding: 3px 18px;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-instructors-btn:hover {
+  background: #c0392b;
+  transform: scale(1.08);
+}

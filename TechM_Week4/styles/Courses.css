@@ -1,0 +1,106 @@
+/* Home Button */
+.home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .home-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Courses Section */
+  .courses-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+    position: relative;
+  }
+  
+  .courses-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .courses-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Course Grid */
+  .courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  /* Course Cards */
+  .course-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Course Image */
+  .course-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Course Title */
+  .course-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #222;
+  }
+  
+  /* Course Level */
+  .course-level {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Course Description */
+  .course-desc {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Enroll Button */
+  .enroll-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .enroll-btn:hover {
+    background: #0056b3;
+  }
+  
