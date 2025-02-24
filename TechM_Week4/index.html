@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPlatform - Online Education</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" type="module" defer></script>
+
+    <style>.logo {
+        display: flex;
+        align-items: center;
+        gap: 8px; /* Adds spacing between image and text */
+        color: aliceblue;
+    }
+    
+    .logo img {
+        width: 40px; /* Adjust size as needed */
+        height: auto;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="EduPlatform Logo">
+                <span >EduPlatform</span>
+            </div>
+            
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="enrollment.html">Enroll</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to EduPlatform</h1>
+            <p>Discover a world of knowledge with our expert-led courses</p>
+            <a href="courses.html" class="cta-button">Explore Courses</a>
+        </section>
+
+        <section class="featured-courses">
+            <h2>Featured Courses</h2>
+            <div class="carousel">
+                <!-- Carousel content will be dynamically added by JavaScript -->
+            </div>
+        </section>
+
+        <section class="course-categories">
+            <h2>Course Categories</h2>
+            <div class="tabs">
+                <button class="tab-button active" data-category="all">All</button>
+                <button class="tab-button" data-category="programming">Programming</button>
+                <button class="tab-button" data-category="design">Design</button>
+                <button class="tab-button" data-category="business">Business</button>
+            </div>
+            <div class="tab-content">
+                <!-- Tab content will be dynamically added by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EduPlatform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
