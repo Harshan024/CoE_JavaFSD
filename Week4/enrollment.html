@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll - EduPlatform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="EduPlatform Logo">
+                <span >EduPlatform</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="enrollment.html" class="active">Enroll</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Enroll in a Course</h1>
+        <form id="enrollment-form">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="course-select">Select Course</label>
+                <select id="course-select" name="course-select" required>
+                    <option value="">Choose a course</option>
+                    <!-- Course options will be dynamically added by JavaScript -->
+                </select>
+            </div>
+            <button type="submit" class="cta-button">Enroll Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EduPlatform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
